@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+body {
+  background-color: #ffffb3;
+}
+.header {
+  width: 100vw;
+  height: 24vh;
+  background-image: url(assets/floral.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid black;
+}
+
+.header .circle {
+  display: inline-block;
+  background-color: white;
+  margin-top: 12vh;
+  margin-left: 45vw;
+  width: 24vh;
+  height: 24vh;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.header p {
+  display: inline-block;
+  text-align: center;
+  word-spacing: 15px;
+  font-family: 'Sacramento', cursive;
+  color: black;
+  font-size: 40px;
+  margin-top: 35px;
+}
+.gallery-wrapper {
+  display: inline-block;
+  margin-top: 115px;
+  margin-left: 9vw;
+}
+.gallery-wrapper p {
+  font-family: 'Sacramento', cursive;
+  font-size: 35px;
+  color: black;
+}
+.gallery {
+  display: inline-block;
+  width: 26vw;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+.gallery img {
+  width: 26vw;
+  height: auto;
+}
+.desc {
+  text-align: center;
+}
+.desc p {
+  font-size: 17px;
+  padding: 10px;
+  font-family: 'Piazzolla', serif;
+}
+.gallery p {
+  
+}
