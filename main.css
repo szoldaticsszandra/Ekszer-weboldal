@@ -19,14 +19,24 @@ body {
     display: inline-block;
     background-color: white;
     margin-top: 15vw;
-    margin-left: 35vw;
-    width: 30vw;
-    height: 30vw;
+    margin-left: 30vw;
+    width: 40vw;
+    height: 40vw;
     border-radius: 50%;
     border: 1px solid black;
   }
 
-@media (min-width: 992px) {
+.header p {
+  display: inline-block;
+  text-align: center;
+  word-spacing: 15px;
+  font-family: 'Sacramento', cursive;
+  color: black;
+  font-size: 35px;
+  margin-top: 35px;
+}
+
+@media (min-width: 768px) {
   .header {
     height: 12vw;
   }
@@ -38,15 +48,6 @@ body {
   }
 }
 
-.header p {
-  display: inline-block;
-  text-align: center;
-  word-spacing: 15px;
-  font-family: 'Sacramento', cursive;
-  color: black;
-  font-size: 2.5rem;
-  margin-top: 35px;
-}
 .gallery-wrapper {
   display: inline-block;
   margin-top: 115px;
