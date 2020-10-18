@@ -7,6 +7,15 @@
 body {
   background-color: #ffffb3;
 }
+
+a {
+  color: dimgray;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: darkslategrey;
+}
 .header {
   width: 100vw;
   height: 30vw;
@@ -36,6 +45,19 @@ body {
   margin-top: 35px;
 }
 
+.greeting {
+  display: inline-block;
+  background-color: white;
+  width: 100%;
+  margin-top: 25vw;
+  text-align: center;
+}
+.greeting p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  margin: 20px;
+}
+
 @media (min-width: 768px) {
   .header {
     height: 12vw;
@@ -46,7 +68,11 @@ body {
     width: 12vw;
     height: 12vw;
   }
+  .greeting {
+    margin-top: 8vw;
+  }
 }
+
 
 .gallery-wrapper {
   display: inline-block;
