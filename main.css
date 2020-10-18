@@ -9,30 +9,42 @@ body {
 }
 .header {
   width: 100vw;
-  height: 24vh;
+  height: 30vw;
   background-image: url(assets/floral.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 1px solid black;
 }
-
 .header .circle {
-  display: inline-block;
-  background-color: white;
-  margin-top: 12vh;
-  margin-left: 44vw;
-  width: 12vw;
-  height: 12vw;
-  border-radius: 50%;
-  border: 1px solid black;
+    display: inline-block;
+    background-color: white;
+    margin-top: 15vw;
+    margin-left: 35vw;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+
+@media (min-width: 768px) {
+  .header {
+    height: 12vw;
+  }
+  .header .circle {
+    margin-top: 6vw;
+    margin-left: 44vw;
+    width: 12vw;
+    height: 12vw;
+  }
 }
+
 .header p {
   display: inline-block;
   text-align: center;
   word-spacing: 15px;
   font-family: 'Sacramento', cursive;
   color: black;
-  font-size: 40px;
+  font-size: 2.5rem;
   margin-top: 35px;
 }
 .gallery-wrapper {
