@@ -20,9 +20,9 @@ body {
   display: inline-block;
   background-color: white;
   margin-top: 12vh;
-  margin-left: 45vw;
-  width: 24vh;
-  height: 24vh;
+  margin-left: 44vw;
+  width: 12vw;
+  height: 12vw;
   border-radius: 50%;
   border: 1px solid black;
 }
@@ -38,12 +38,13 @@ body {
 .gallery-wrapper {
   display: inline-block;
   margin-top: 115px;
-  margin-left: 9vw;
+  margin-left: 8vw;
 }
 .gallery-wrapper p {
-  font-family: 'Sacramento', cursive;
-  font-size: 35px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
   color: black;
+  margin-bottom: 1vh;
 }
 .gallery {
   display: inline-block;
@@ -51,7 +52,7 @@ body {
   height: auto;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-right: 25px;
+  margin-right: 2vw;
   margin-bottom: 25px;
   transition: transform .3s;
 }
@@ -65,7 +66,7 @@ body {
 .desc p {
   font-size: 17px;
   padding: 10px;
-  font-family: 'Piazzolla', serif;
+  font-family: 'Raleway', sans-serif;
 }
 .gallery:hover {
   transform: scale(1.02);
