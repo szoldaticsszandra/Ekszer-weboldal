@@ -60,25 +60,9 @@ a:hover {
   margin: 1vw 8vw;
 }
 
-@media (min-width: 768px) {
-  .header {
-    height: 12vw;
-  }
-  .header .circle {
-    margin-top: 6vw;
-    margin-left: 8vw;
-    width: 12vw;
-    height: 12vw;
-  }
-  .greeting {
-    margin-top: 8vw;
-  }
-}
-
-
 .gallery-wrapper {
   display: inline-block;
-  margin-top: 115px;
+  margin-top: 8vw;
   margin-left: 8vw;
 }
 .gallery-wrapper p {
@@ -111,4 +95,22 @@ a:hover {
 }
 .gallery:hover {
   transform: scale(1.02);
+}
+
+@media (min-width: 768px) {
+  .header {
+    height: 12vw;
+  }
+  .header .circle {
+    margin-top: 6vw;
+    margin-left: 8vw;
+    width: 12vw;
+    height: 12vw;
+  }
+  .greeting {
+    margin-top: 8vw;
+  }
+  .gallery-wrapper {
+    margin-top: 4vw;
+  }
 }
