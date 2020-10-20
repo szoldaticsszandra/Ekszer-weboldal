@@ -94,8 +94,8 @@ a:hover {
   text-align: center;
 }
 .desc p {
-  font-size: 16px;
-  padding: 5px 0px 0px 0px;
+  font-size: 14px;
+  padding: 2px 0px 0px 0px;
   font-family: 'Raleway', sans-serif;
 }
 .desc .price {
@@ -123,5 +123,9 @@ a:hover {
   }
   .gallery-wrapper {
     margin-top: 4vw;
+  }
+  .desc p {
+    font-size: 16px;
+    padding: 5px 0px 0px 0px;
   }
 }
