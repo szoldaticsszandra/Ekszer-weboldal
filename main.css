@@ -92,6 +92,7 @@ a:hover {
 }
 .desc {
   text-align: center;
+  height: 50px;
 }
 .desc p {
   font-size: 12px;
