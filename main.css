@@ -25,15 +25,15 @@ a:hover {
   border-bottom: 1px solid black;
 }
 .header .circle {
-    display: inline-block;
-    background-color: white;
-    margin-top: 10vw;
-    margin-left: 8vw;
-    width: 40vw;
-    height: 40vw;
-    border-radius: 50%;
-    border: 1px solid black;
-  }
+  display: inline-block;
+  background-color: white;
+  margin-top: 10vw;
+  margin-left: 8vw;
+  width: 40vw;
+  height: 40vw;
+  border-radius: 50%;
+  border: 1px solid black;
+}
 
 .header p {
   display: inline-block;
