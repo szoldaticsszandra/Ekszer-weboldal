@@ -78,7 +78,7 @@ a:hover {
 }
 .gallery {
   display: inline-block;
-  width: 40vw;
+  width: 42vw;
   height: auto;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -87,7 +87,7 @@ a:hover {
   transition: transform .3s;
 }
 .gallery img {
-  width: 38vw;
+  width: 42vw;
   height: auto;
 }
 .desc {
