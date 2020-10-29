@@ -65,7 +65,7 @@ a:hover {
 }
 .gallery-wrapper h1 {
   font-family: 'Raleway', sans-serif;
-  font-size: 25px;
+  font-size: 22px;
   font-style: none;
   color: black;
   margin-top: 3vh;
@@ -119,15 +119,18 @@ a:hover {
   }
   .greeting {
     margin-top: 8vw;
-    margin-left: 8vw;
   }
   .greeting p {
     font-size: 18px;
+    margin-left: 8vw;
   }
   .gallery-wrapper {
     margin-top: 4vw;
     margin-left: 8vw;
     margin-right: 6vw;
+  }
+  .gallery-wrapper h1 {
+    font-size: 25px;
   }
   .gallery {
     width: 26vw;
