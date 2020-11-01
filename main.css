@@ -5,7 +5,7 @@
   font-size: 100%;
 }
 body {
-  background: #ffffcc;
+  background: #ebebe0;
 }
 
 a {
@@ -19,7 +19,7 @@ a:hover {
 .header {
   width: 100vw;
   height: 30vw;
-  background-image: url(assets/floral.jpg);
+  background-image: url(assets/floral2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 1px solid black;
